@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .d-none {
+    display: none;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .animation {
+    position: absolute;
+    width: 100%;
+    transform: translateY(-540px);
+    opacity: 0;
+  }
+  
+  .tab-menu {
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+    border: 2px solid black;
+    margin-top: 250px;
+    border-radius: 20px;
+    display: flex;
+    gap: 50px;
+    overflow: hidden;
+  }
+  
+  .tab-menu .icons {
+    font-size: 40px;
+    cursor: pointer;
+    margin-left: 30px;
+    transition: all 0.5s;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+  }
+  
+  
+  .tab-menu .title {
+    position: relative;
+    width: 350px;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 80px;
+  }
+  
+  .tab-menu .title div {
+    transition: all 0.9s;
+    opacity: 1;
+  }
