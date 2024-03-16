@@ -1,0 +1,38 @@
+.slider {
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-900px);
+}
+
+.slider .icons i {
+  position: absolute;
+  top: 50%;
+  color: magenta;
+  z-index: 1;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.slider .icons i:nth-child(1) {
+  left: 10px;
+}
+
+.slider .icons i:nth-child(2) {
+  right: 10px;
+}
+
+.next {
+  transform: translateX(0px) !important;
+  transition: all 0.8s;
+}
